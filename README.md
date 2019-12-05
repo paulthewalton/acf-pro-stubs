@@ -72,4 +72,4 @@ You should be running PHP 7.1 or later to follow these steps, so any function de
 4. Run `composer update`
 5. Run `./generate.sh`
 
-The `acf-stubs.php` file should now be updated. Feel free to submit a Pull Request if you'd like to see a release for a newer version. If things have fallen behind, please generate stubs for each missing version in a distinct commit so we can have a continuous release history.
+The `acf-pro-stubs.php` file should now be updated. Feel free to submit a Pull Request if you'd like to see a release for a newer version. If things have fallen behind, please generate stubs for each missing version in a distinct commit so we can have a continuous release history.
