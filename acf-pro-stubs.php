@@ -1,6 +1,6 @@
 <?php
 /**
- * Generated stub declarations for Advanced Custom Fields.
+ * Generated stub declarations for Advanced Custom Fields Pro.
  * https://www.advancedcustomfields.com/
  */
 
@@ -9459,6 +9459,1824 @@ class ACF_WPML_Compatibility
     {
     }
 }
+class acf_pro
+{
+    /*
+     *  __construct
+     *
+     *
+     *
+     *  @type	function
+     *  @date	23/06/12
+     *  @since	5.0.0
+     *
+     *  @param	N/A
+     *  @return	N/A
+     */
+    function __construct()
+    {
+    }
+    /*
+     *  include_field_types
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	21/10/2015
+     *  @since	5.2.3
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function include_field_types()
+    {
+    }
+    /*
+     *  include_location_rules
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	10/6/17
+     *  @since	5.6.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function include_location_rules()
+    {
+    }
+    /*
+     *  register_assets
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/11/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function register_assets()
+    {
+    }
+    /*
+     *  input_admin_enqueue_scripts
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/11/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function input_admin_enqueue_scripts()
+    {
+    }
+    /*
+     *  field_group_admin_enqueue_scripts
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/11/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function field_group_admin_enqueue_scripts()
+    {
+    }
+}
+class acf_admin_options_page
+{
+    /** @var array Contains the current options page */
+    var $page;
+    /*
+     *  __construct
+     *
+     *  Initialize filters, action, variables and includes
+     *
+     *  @type	function
+     *  @date	23/06/12
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function __construct()
+    {
+    }
+    /*
+     *  admin_menu
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	24/02/2014
+     *  @since	5.0.0
+     *
+     *  @param
+     *  @return
+     */
+    function admin_menu()
+    {
+    }
+    /*
+     *  load
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	2/02/13
+     *  @since	3.6
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function admin_load()
+    {
+    }
+    /*
+     *  admin_enqueue_scripts
+     *
+     *  This function will enqueue the 'post.js' script which adds support for 'Screen Options' column toggle
+     *
+     *  @type	function
+     *  @date	23/03/2016
+     *  @since	5.3.2
+     *
+     *  @param
+     *  @return
+     */
+    function admin_enqueue_scripts()
+    {
+    }
+    /*
+     *  admin_head
+     *
+     *  This action will find and add field groups to the current edit page
+     *
+     *  @type	action (admin_head)
+     *  @date	23/06/12
+     *  @since	3.1.8
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function admin_head()
+    {
+    }
+    /*
+     *  postbox_submitdiv
+     *
+     *  This function will render the submitdiv metabox
+     *
+     *  @type	function
+     *  @date	23/03/2016
+     *  @since	5.3.2
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function postbox_submitdiv($post, $args)
+    {
+    }
+    /*
+     *  render_meta_box
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	24/02/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post (object)
+     *  @param	$args (array)
+     *  @return	n/a
+     */
+    function postbox_acf($post, $args)
+    {
+    }
+    /*
+     *  html
+     *
+     *  @description:
+     *  @since: 2.0.4
+     *  @created: 5/12/12
+     */
+    function html()
+    {
+    }
+}
+class ACF_Admin_Updates
+{
+    /** @var array Data used in the view. */
+    var $view = array();
+    /**
+     * __construct
+     *
+     * Sets up the class functionality.
+     *
+     * @date	23/06/12
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function __construct()
+    {
+    }
+    /**
+     * display_wp_error
+     *
+     * Adds an admin notice using the provided WP_Error.
+     *
+     * @date	14/1/19
+     * @since	5.7.10
+     *
+     * @param	WP_Error $wp_error The error to display.
+     * @return	void
+     */
+    function display_wp_error($wp_error)
+    {
+    }
+    /**
+     * get_changelog_changes
+     *
+     * Finds the specific changes for a given version from the provided changelog snippet.
+     *
+     * @date	14/1/19
+     * @since	5.7.10
+     *
+     * @param	string $changelog The changelog text.
+     * @param	string $version The version to find.
+     * @return	string
+     */
+    function get_changelog_changes($changelog = '', $version = '')
+    {
+    }
+    /**
+     * admin_menu
+     *
+     * Adds the admin menu subpage.
+     *
+     * @date	28/09/13
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function admin_menu()
+    {
+    }
+    /**
+     * load
+     *
+     * Runs when loading the submenu page.
+     *
+     * @date	7/01/2014
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function load()
+    {
+    }
+    /**
+     * activate_pro_licence
+     *
+     * Activates the submitted license key.
+     *
+     * @date	16/01/2014
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function activate_pro_licence()
+    {
+    }
+    /**
+     * activate_pro_licence
+     *
+     * Deactivates the registered license key.
+     *
+     * @date	16/01/2014
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function deactivate_pro_licence()
+    {
+    }
+    /**
+     * html
+     *
+     * Displays the submenu page's HTML.
+     *
+     * @date	7/01/2014
+     * @since	5.0.0
+     *
+     * @param	void
+     * @return	void
+     */
+    function html()
+    {
+    }
+}
+class acf_field_clone extends \acf_field
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the field type data
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  is_enabled
+     *
+     *  This function will return true if acf_local functionality is enabled
+     *
+     *  @type	function
+     *  @date	14/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function is_enabled()
+    {
+    }
+    /*
+     *  load_field()
+     *
+     *  This filter is appied to the $field after it is loaded from the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$field - the field array holding all the field options
+     */
+    function load_field($field)
+    {
+    }
+    /*
+     *  acf_get_fields
+     *
+     *  This function will hook into the 'acf/get_fields' filter and inject/replace seamless clones fields
+     *
+     *  @type	function
+     *  @date	17/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$fields (array)
+     *  @param	$parent (array)
+     *  @return	$fields
+     */
+    function acf_get_fields($fields, $parent)
+    {
+    }
+    /*
+     *  get_cloned_fields
+     *
+     *  This function will return an array of fields for a given clone field
+     *
+     *  @type	function
+     *  @date	28/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$field (array)
+     *  @param	$parent (array)
+     *  @return	(array)
+     */
+    function get_cloned_fields($field)
+    {
+    }
+    /*
+     *  acf_clone_field
+     *
+     *  This function is run when cloning a clone field
+     *  Important to run the acf_clone_field function on sub fields to pass on settings such as 'parent_layout'
+     *
+     *  @type	function
+     *  @date	28/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$field (array)
+     *  @param	$clone_field (array)
+     *  @return	$field
+     */
+    function acf_clone_field($field, $clone_field)
+    {
+    }
+    /*
+     *  acf_clone_clone_field
+     *
+     *  This function is run when cloning a clone field
+     *  Important to run the acf_clone_field function on sub fields to pass on settings such as 'parent_layout'
+     *  Do not delete! Removing this logic causes major issues with cloned clone fields within a flexible content layout.
+     *
+     *  @type	function
+     *  @date	28/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$field (array)
+     *  @param	$clone_field (array)
+     *  @return	$field
+     */
+    function acf_clone_clone_field($field, $clone_field)
+    {
+    }
+    /*
+     *  prepare_field_for_db
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/11/16
+     *  @since	5.5.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function prepare_field_for_db($field)
+    {
+    }
+    /*
+     *  load_value()
+     *
+     *  This filter is applied to the $value after it is loaded from the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value found in the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *  @return	$value
+     */
+    function load_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  format_value()
+     *
+     *  This filter is appied to the $value after it is loaded from the db and before it is returned to the template
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value which was loaded from the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *
+     *  @return	$value (mixed) the modified value
+     */
+    function format_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  update_value()
+     *
+     *  This filter is appied to the $value before it is updated in the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value - the value which will be saved in the database
+     *  @param	$field - the field array holding all the field options
+     *  @param	$post_id - the $post_id of which the value will be saved
+     *
+     *  @return	$value - the modified value
+     */
+    function update_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  render_field()
+     *
+     *  Create the HTML interface for your field
+     *
+     *  @param	$field - an array holding all the field's data
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     */
+    function render_field($field)
+    {
+    }
+    /*
+     *  render_field_block
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	12/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function render_field_block($field)
+    {
+    }
+    /*
+     *  render_field_table
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	12/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function render_field_table($field)
+    {
+    }
+    /*
+     *  render_field_settings()
+     *
+     *  Create extra options for your field. This is rendered when editing a field.
+     *  The value of $field['name'] can be used (like bellow) to save extra data to the $field
+     *
+     *  @param	$field	- an array holding all the field's data
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     */
+    function render_field_settings($field)
+    {
+    }
+    /*
+     *  get_clone_setting_choices
+     *
+     *  This function will return an array of choices data for Select2
+     *
+     *  @type	function
+     *  @date	17/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$value (mixed)
+     *  @return	(array)
+     */
+    function get_clone_setting_choices($value)
+    {
+    }
+    /*
+     *  get_clone_setting_choice
+     *
+     *  This function will return the label for a given clone choice
+     *
+     *  @type	function
+     *  @date	17/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$selector (mixed)
+     *  @return	(string)
+     */
+    function get_clone_setting_choice($selector = '')
+    {
+    }
+    /*
+     *  get_clone_setting_field_choice
+     *
+     *  This function will return the text for a field choice
+     *
+     *  @type	function
+     *  @date	20/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$field (array)
+     *  @return	(string)
+     */
+    function get_clone_setting_field_choice($field)
+    {
+    }
+    /*
+     *  get_clone_setting_group_choice
+     *
+     *  This function will return the text for a group choice
+     *
+     *  @type	function
+     *  @date	20/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$field_group (array)
+     *  @return	(string)
+     */
+    function get_clone_setting_group_choice($field_group)
+    {
+    }
+    /*
+     *  ajax_query
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	17/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function ajax_query()
+    {
+    }
+    /*
+     *  acf_prepare_field
+     *
+     *  This function will restore a field's key ready for input
+     *
+     *  @type	function
+     *  @date	6/09/2016
+     *  @since	5.4.0
+     *
+     *  @param	$field (array)
+     *  @return	$field
+     */
+    function acf_prepare_field($field)
+    {
+    }
+    /*
+     *  validate_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/02/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function validate_value($valid, $value, $field, $input)
+    {
+    }
+}
+class acf_field_flexible_content extends \acf_field
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the field type data
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  input_admin_enqueue_scripts
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	16/12/2015
+     *  @since	5.3.2
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function input_admin_enqueue_scripts()
+    {
+    }
+    /*
+     *  get_valid_layout
+     *
+     *  This function will fill in the missing keys to create a valid layout
+     *
+     *  @type	function
+     *  @date	3/10/13
+     *  @since	1.1.0
+     *
+     *  @param	$layout (array)
+     *  @return	$layout (array)
+     */
+    function get_valid_layout($layout = array())
+    {
+    }
+    /*
+     *  load_field()
+     *
+     *  This filter is appied to the $field after it is loaded from the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$field - the field array holding all the field options
+     */
+    function load_field($field)
+    {
+    }
+    /*
+     *  get_sub_field
+     *
+     *  This function will return a specific sub field
+     *
+     *  @type	function
+     *  @date	29/09/2016
+     *  @since	5.4.0
+     *
+     *  @param	$sub_field
+     *  @param	$selector (string)
+     *  @param	$field (array)
+     *  @return	$post_id (int)
+     */
+    function get_sub_field($sub_field, $id, $field)
+    {
+    }
+    /*
+     *  render_field()
+     *
+     *  Create the HTML interface for your field
+     *
+     *  @param	$field - an array holding all the field's data
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     */
+    function render_field($field)
+    {
+    }
+    /*
+     *  render_layout
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	19/11/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function render_layout($field, $layout, $i, $value)
+    {
+    }
+    /*
+     *  render_field_settings()
+     *
+     *  Create extra options for your field. This is rendered when editing a field.
+     *  The value of $field['name'] can be used (like bellow) to save extra data to the $field
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field	- an array holding all the field's data
+     */
+    function render_field_settings($field)
+    {
+    }
+    /*
+     *  load_value()
+     *
+     *  This filter is applied to the $value after it is loaded from the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value found in the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *  @return	$value
+     */
+    function load_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  format_value()
+     *
+     *  This filter is appied to the $value after it is loaded from the db and before it is returned to the template
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value which was loaded from the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *
+     *  @return	$value (mixed) the modified value
+     */
+    function format_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  validate_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/02/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function validate_value($valid, $value, $field, $input)
+    {
+    }
+    /*
+     *  get_layout
+     *
+     *  This function will return a specific layout by name from a field
+     *
+     *  @type	function
+     *  @date	15/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$name (string)
+     *  @param	$field (array)
+     *  @return	(array)
+     */
+    function get_layout($name = '', $field)
+    {
+    }
+    /*
+     *  delete_row
+     *
+     *  This function will delete a value row
+     *
+     *  @type	function
+     *  @date	15/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$i (int)
+     *  @param	$field (array)
+     *  @param	$post_id (mixed)
+     *  @return	(boolean)
+     */
+    function delete_row($i = 0, $field, $post_id)
+    {
+    }
+    /*
+     *  update_row
+     *
+     *  This function will update a value row
+     *
+     *  @type	function
+     *  @date	15/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$i (int)
+     *  @param	$field (array)
+     *  @param	$post_id (mixed)
+     *  @return	(boolean)
+     */
+    function update_row($row, $i = 0, $field, $post_id)
+    {
+    }
+    /*
+     *  update_value()
+     *
+     *  This filter is appied to the $value before it is updated in the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value - the value which will be saved in the database
+     *  @param	$field - the field array holding all the field options
+     *  @param	$post_id - the $post_id of which the value will be saved
+     *
+     *  @return	$value - the modified value
+     */
+    function update_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  delete_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	1/07/2015
+     *  @since	5.2.3
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function delete_value($post_id, $key, $field)
+    {
+    }
+    /*
+     *  update_field()
+     *
+     *  This filter is appied to the $field before it is saved to the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *  @param	$post_id - the field group ID (post_type = acf)
+     *
+     *  @return	$field - the modified field
+     */
+    function update_field($field)
+    {
+    }
+    /*
+     *  delete_field
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/04/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function delete_field($field)
+    {
+    }
+    /*
+     *  duplicate_field()
+     *
+     *  This filter is appied to the $field before it is duplicated and saved to the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$field - the modified field
+     */
+    function duplicate_field($field)
+    {
+    }
+    /*
+     *  ajax_layout_title
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	2/03/2016
+     *  @since	5.3.2
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function ajax_layout_title()
+    {
+    }
+    function get_layout_title($field, $layout, $i, $value)
+    {
+    }
+    /*
+     *  clone_any_field
+     *
+     *  This function will update clone field settings based on the origional field
+     *
+     *  @type	function
+     *  @date	28/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$clone (array)
+     *  @param	$field (array)
+     *  @return	$clone
+     */
+    function clone_any_field($field, $clone_field)
+    {
+    }
+    /*
+     *  prepare_field_for_export
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function prepare_field_for_export($field)
+    {
+    }
+    function prepare_any_field_for_export($field)
+    {
+    }
+    /*
+     *  prepare_field_for_import
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function prepare_field_for_import($field)
+    {
+    }
+    /*
+     *  validate_any_field
+     *
+     *  This function will add compatibility for the 'column_width' setting
+     *
+     *  @type	function
+     *  @date	30/1/17
+     *  @since	5.5.6
+     *
+     *  @param	$field (array)
+     *  @return	$field
+     */
+    function validate_any_field($field)
+    {
+    }
+    /*
+     *  translate_field
+     *
+     *  This function will translate field settings
+     *
+     *  @type	function
+     *  @date	8/03/2016
+     *  @since	5.3.2
+     *
+     *  @param	$field (array)
+     *  @return	$field
+     */
+    function translate_field($field)
+    {
+    }
+}
+class acf_field_gallery extends \acf_field
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the field type data
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  input_admin_enqueue_scripts
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	16/12/2015
+     *  @since	5.3.2
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function input_admin_enqueue_scripts()
+    {
+    }
+    /*
+     *  ajax_get_attachment
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	13/12/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function ajax_get_attachment()
+    {
+    }
+    /*
+     *  ajax_update_attachment
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	13/12/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function ajax_update_attachment()
+    {
+    }
+    /*
+     *  ajax_get_sort_order
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	13/12/2013
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function ajax_get_sort_order()
+    {
+    }
+    /**
+     * render_attachment
+     *
+     * Renders the sidebar HTML shown when selecting an attachmemnt.
+     *
+     * @date	13/12/2013
+     * @since	5.0.0
+     *
+     * @param	int $id The attachment ID.
+     * @param	array $field The field array.
+     * @return	void
+     */
+    function render_attachment($id = 0, $field)
+    {
+    }
+    /*
+     *  render_field()
+     *
+     *  Create the HTML interface for your field
+     *
+     *  @param	$field - an array holding all the field's data
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     */
+    function render_field($field)
+    {
+    }
+    /*
+     *  render_field_settings()
+     *
+     *  Create extra options for your field. This is rendered when editing a field.
+     *  The value of $field['name'] can be used (like bellow) to save extra data to the $field
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field	- an array holding all the field's data
+     */
+    function render_field_settings($field)
+    {
+    }
+    /*
+     *  format_value()
+     *
+     *  This filter is appied to the $value after it is loaded from the db and before it is returned to the template
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value which was loaded from the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *
+     *  @return	$value (mixed) the modified value
+     */
+    function format_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  validate_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/02/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function validate_value($valid, $value, $field, $input)
+    {
+    }
+    /*
+     *  update_value()
+     *
+     *  This filter is appied to the $value before it is updated in the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value - the value which will be saved in the database
+     *  @param	$post_id - the $post_id of which the value will be saved
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$value - the modified value
+     */
+    function update_value($value, $post_id, $field)
+    {
+    }
+}
+class acf_field_repeater extends \acf_field
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the field type data
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  input_admin_enqueue_scripts
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	16/12/2015
+     *  @since	5.3.2
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function input_admin_enqueue_scripts()
+    {
+    }
+    /*
+     *  load_field()
+     *
+     *  This filter is appied to the $field after it is loaded from the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$field - the field array holding all the field options
+     */
+    function load_field($field)
+    {
+    }
+    /*
+     *  render_field()
+     *
+     *  Create the HTML interface for your field
+     *
+     *  @param	$field - an array holding all the field's data
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     */
+    function render_field($field)
+    {
+    }
+    /*
+     *  render_field_settings()
+     *
+     *  Create extra options for your field. This is rendered when editing a field.
+     *  The value of $field['name'] can be used (like bellow) to save extra data to the $field
+     *
+     *  @type	action
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field	- an array holding all the field's data
+     */
+    function render_field_settings($field)
+    {
+    }
+    /*
+     *  load_value()
+     *
+     *  This filter is applied to the $value after it is loaded from the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value found in the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *  @return	$value
+     */
+    function load_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  format_value()
+     *
+     *  This filter is appied to the $value after it is loaded from the db and before it is returned to the template
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value (mixed) the value which was loaded from the database
+     *  @param	$post_id (mixed) the $post_id from which the value was loaded
+     *  @param	$field (array) the field array holding all the field options
+     *
+     *  @return	$value (mixed) the modified value
+     */
+    function format_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  validate_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/02/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function validate_value($valid, $value, $field, $input)
+    {
+    }
+    /*
+     *  update_row
+     *
+     *  This function will update a value row
+     *
+     *  @type	function
+     *  @date	15/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$i (int)
+     *  @param	$field (array)
+     *  @param	$post_id (mixed)
+     *  @return	(boolean)
+     */
+    function update_row($row, $i = 0, $field, $post_id)
+    {
+    }
+    /*
+     *  delete_row
+     *
+     *  This function will delete a value row
+     *
+     *  @type	function
+     *  @date	15/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$i (int)
+     *  @param	$field (array)
+     *  @param	$post_id (mixed)
+     *  @return	(boolean)
+     */
+    function delete_row($i = 0, $field, $post_id)
+    {
+    }
+    /*
+     *  update_value()
+     *
+     *  This filter is appied to the $value before it is updated in the db
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$value - the value which will be saved in the database
+     *  @param	$field - the field array holding all the field options
+     *  @param	$post_id - the $post_id of which the value will be saved
+     *
+     *  @return	$value - the modified value
+     */
+    function update_value($value, $post_id, $field)
+    {
+    }
+    /*
+     *  delete_value
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	1/07/2015
+     *  @since	5.2.3
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function delete_value($post_id, $key, $field)
+    {
+    }
+    /*
+     *  delete_field
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	4/04/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function delete_field($field)
+    {
+    }
+    /*
+     *  update_field()
+     *
+     *  This filter is appied to the $field before it is saved to the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *  @param	$post_id - the field group ID (post_type = acf)
+     *
+     *  @return	$field - the modified field
+     */
+    function update_field($field)
+    {
+    }
+    /*
+     *  duplicate_field()
+     *
+     *  This filter is appied to the $field before it is duplicated and saved to the database
+     *
+     *  @type	filter
+     *  @since	3.6
+     *  @date	23/01/13
+     *
+     *  @param	$field - the field array holding all the field options
+     *
+     *  @return	$field - the modified field
+     */
+    function duplicate_field($field)
+    {
+    }
+    /*
+     *  translate_field
+     *
+     *  This function will translate field settings
+     *
+     *  @type	function
+     *  @date	8/03/2016
+     *  @since	5.3.2
+     *
+     *  @param	$field (array)
+     *  @return	$field
+     */
+    function translate_field($field)
+    {
+    }
+    /*
+     *  validate_any_field
+     *
+     *  This function will add compatibility for the 'column_width' setting
+     *
+     *  @type	function
+     *  @date	30/1/17
+     *  @since	5.5.6
+     *
+     *  @param	$field (array)
+     *  @return	$field
+     */
+    function validate_any_field($field)
+    {
+    }
+    /*
+     *  prepare_field_for_export
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function prepare_field_for_export($field)
+    {
+    }
+    /*
+     *  prepare_field_for_import
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	11/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function prepare_field_for_import($field)
+    {
+    }
+}
+class ACF_Location_Block extends \acf_location
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the class functionality
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  rule_match
+     *
+     *  This function is used to match this location $rule to the current $screen
+     *
+     *  @type	function
+     *  @date	3/01/13
+     *  @since	3.5.7
+     *
+     *  @param	$match (boolean)
+     *  @param	$rule (array)
+     *  @return	$options (array)
+     */
+    function rule_match($result, $rule, $screen)
+    {
+    }
+    /*
+     *  rule_operators
+     *
+     *  This function returns the available values for this rule type
+     *
+     *  @type	function
+     *  @date	30/5/17
+     *  @since	5.6.0
+     *
+     *  @param	n/a
+     *  @return	(array)
+     */
+    function rule_values($choices, $rule)
+    {
+    }
+}
+class acf_location_options_page extends \acf_location
+{
+    /*
+     *  __construct
+     *
+     *  This function will setup the class functionality
+     *
+     *  @type	function
+     *  @date	5/03/2014
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function initialize()
+    {
+    }
+    /*
+     *  rule_match
+     *
+     *  This function is used to match this location $rule to the current $screen
+     *
+     *  @type	function
+     *  @date	3/01/13
+     *  @since	3.5.7
+     *
+     *  @param	$match (boolean)
+     *  @param	$rule (array)
+     *  @return	$options (array)
+     */
+    function rule_match($result, $rule, $screen)
+    {
+    }
+    /*
+     *  rule_operators
+     *
+     *  This function returns the available values for this rule type
+     *
+     *  @type	function
+     *  @date	30/5/17
+     *  @since	5.6.0
+     *
+     *  @param	n/a
+     *  @return	(array)
+     */
+    function rule_values($choices, $rule)
+    {
+    }
+}
+class acf_options_page
+{
+    /** @var array Contains an array of optiions page settings */
+    var $pages = array();
+    /*
+     *  __construct
+     *
+     *  Initialize filters, action, variables and includes
+     *
+     *  @type	function
+     *  @date	23/06/12
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function __construct()
+    {
+    }
+    /*
+     *  validate_page
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	28/2/17
+     *  @since	5.5.8
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function validate_page($page)
+    {
+    }
+    /*
+     *  add_page
+     *
+     *  This function will store an options page settings
+     *
+     *  @type	function
+     *  @date	9/6/17
+     *  @since	5.6.0
+     *
+     *  @param	$page (array)
+     *  @return	n/a
+     */
+    function add_page($page)
+    {
+    }
+    /*
+     *  add_sub_page
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	9/6/17
+     *  @since	5.6.0
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function add_sub_page($page)
+    {
+    }
+    /*
+     *  update_page
+     *
+     *  This function will update an options page settings
+     *
+     *  @type	function
+     *  @date	9/6/17
+     *  @since	5.6.0
+     *
+     *  @param	$slug (string)
+     *  @param	$data (array)
+     *  @return	(array)
+     */
+    function update_page($slug = '', $data = array())
+    {
+    }
+    /*
+     *  get_page
+     *
+     *  This function will return an options page settings
+     *
+     *  @type	function
+     *  @date	6/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$slug (string)
+     *  @return	(mixed)
+     */
+    function get_page($slug)
+    {
+    }
+    /*
+     *  get_pages
+     *
+     *  This function will return all options page settings
+     *
+     *  @type	function
+     *  @date	6/07/2016
+     *  @since	5.4.0
+     *
+     *  @param	$slug (string)
+     *  @return	(mixed)
+     */
+    function get_pages()
+    {
+    }
+}
+class acf_pro_updates
+{
+    /*
+     *  __construct
+     *
+     *  Initialize filters, action, variables and includes
+     *
+     *  @type	function
+     *  @date	23/06/12
+     *  @since	5.0.0
+     *
+     *  @param	n/a
+     *  @return	n/a
+     */
+    function __construct()
+    {
+    }
+    /*
+     *  init
+     *
+     *  description
+     *
+     *  @type	function
+     *  @date	10/4/17
+     *  @since	5.5.10
+     *
+     *  @param	$post_id (int)
+     *  @return	$post_id (int)
+     */
+    function init()
+    {
+    }
+    /*
+     *  modify_plugin_update_message
+     *
+     *  Displays an update message for plugin list screens.
+     *
+     *  @type	function
+     *  @date	14/06/2016
+     *  @since	5.3.8
+     *
+     *  @param	$message (string)
+     *  @param	$plugin_data (array)
+     *  @param	$r (object)
+     *  @return	$message
+     */
+    function modify_plugin_update_message($plugin_data, $response)
+    {
+    }
+}
 /*
  * acf
  *
@@ -15373,6 +17191,335 @@ function acf_validate_values($values, $input_prefix = '')
 *  @return	n/a
 */
 function acf_validate_value($value, $field, $input)
+{
+}
+/**
+ * acf_register_block_type
+ *
+ * Registers a block type.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	array $block The block settings.
+ * @return	(array|false)
+ */
+function acf_register_block_type($block)
+{
+}
+/**
+ * acf_register_block
+ *
+ * See acf_register_block_type().
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	array $block The block settings.
+ * @return	(array|false)
+ */
+function acf_register_block($block)
+{
+}
+/**
+ * acf_has_block_type
+ *
+ * Returns true if a block type exists for the given name.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	string $name The block type name.
+ * @return	bool
+ */
+function acf_has_block_type($name)
+{
+}
+/**
+ * acf_get_block_types
+ *
+ * Returns an array of all registered block types.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_block_types()
+{
+}
+/**
+ * acf_get_block_types
+ *
+ * Returns a block type for the given name.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	string $name The block type name.
+ * @return	(array|null)
+ */
+function acf_get_block_type($name)
+{
+}
+/**
+ * acf_remove_block_type
+ *
+ * Removes a block type for the given name.
+ *
+ * @date	18/2/19
+ * @since	5.7.12
+ *
+ * @param	string $name The block type name.
+ * @return	void
+ */
+function acf_remove_block_type($name)
+{
+}
+/**
+ * acf_get_block_type_default_attributes
+ *
+ * Returns an array of default attribute settings for a block type.
+ *
+ * @date	19/11/18
+ * @since	5.8.0
+ *
+ * @param	void
+ * @return	array
+ */
+function acf_get_block_type_default_attributes()
+{
+}
+/**
+ * acf_validate_block_type
+ *
+ * Validates a block type ensuring all settings exist.
+ *
+ * @date	10/4/18
+ * @since	5.8.0
+ *
+ * @param	array $block The block settings.
+ * @return	array
+ */
+function acf_validate_block_type($block)
+{
+}
+/**
+ * acf_prepare_block
+ *
+ * Prepares a block for use in render_callback by merging in all settings and attributes.
+ *
+ * @date	19/11/18
+ * @since	5.8.0
+ *
+ * @param	array $block The block props.
+ * @return	array
+ */
+function acf_prepare_block($block)
+{
+}
+/**
+ * acf_rendered_block
+ *
+ * Returns the HTML from acf_render_block().
+ *
+ * @date	28/2/19
+ * @since	5.7.13
+ * @see		acf_render_block() for list of parameters.
+ *
+ * @return	string
+ */
+function acf_rendered_block($block, $content = '', $is_preview = \false, $post_id = 0)
+{
+}
+/**
+ * acf_render_block
+ *
+ * Renders the block HTML.
+ *
+ * @date	19/2/19
+ * @since	5.7.12
+ *
+ * @param	array $block The block props.
+ * @param	string $content The block content (emtpy string).
+ * @param	bool $is_preview True during AJAX preview.
+ * @param	int $post_id The post being edited.
+ * @return	void
+ */
+function acf_render_block($block, $content = '', $is_preview = \false, $post_id = 0)
+{
+}
+/**
+ * acf_get_block_fields
+ *
+ * Returns an array of all fields for the given block.
+ *
+ * @date	24/10/18
+ * @since	5.8.0
+ *
+ * @param	array $block The block props.
+ * @return	array
+ */
+function acf_get_block_fields($block)
+{
+}
+/**
+ * acf_enqueue_block_assets
+ *
+ * Enqueues and localizes block scripts and styles.
+ *
+ * @date	28/2/19
+ * @since	5.7.13
+ *
+ * @param	void
+ * @return	void
+ */
+function acf_enqueue_block_assets()
+{
+}
+/**
+ * acf_enqueue_block_type_assets
+ *
+ * Enqueues scripts and styles for a specific block type.
+ *
+ * @date	28/2/19
+ * @since	5.7.13
+ *
+ * @param	array $block_type The block type settings.
+ * @return	void
+ */
+function acf_enqueue_block_type_assets($block_type)
+{
+}
+/**
+ * acf_ajax_fetch_block
+ *
+ * Handles the ajax request for block data.
+ *
+ * @date	28/2/19
+ * @since	5.7.13
+ *
+ * @param	void
+ * @return	void
+ */
+function acf_ajax_fetch_block()
+{
+}
+/**
+ * acf_parse_save_blocks
+ *
+ * Parse content that may contain HTML block comments and saves ACF block meta.
+ *
+ * @date	27/2/19
+ * @since	5.7.13
+ *
+ * @param	string $text Content that may contain HTML block comments.
+ * @return	string
+ */
+function acf_parse_save_blocks($text = '')
+{
+}
+/**
+ * acf_parse_save_blocks_callback
+ *
+ * Callback used in preg_replace to modify ACF Block comment.
+ *
+ * @date	1/3/19
+ * @since	5.7.13
+ *
+ * @param	array $matches The preg matches.
+ * @return	string
+ */
+function acf_parse_save_blocks_callback($matches)
+{
+}
+/*
+*  acf_options_page
+*
+*  This function will return the options page instance
+*
+*  @type	function
+*  @date	9/6/17
+*  @since	5.6.0
+*
+*  @param	n/a
+*  @return	(object)
+*/
+function acf_options_page()
+{
+}
+function acf_add_options_page($page = '')
+{
+}
+function acf_add_options_sub_page($page = '')
+{
+}
+function acf_update_options_page($slug = '', $data = array())
+{
+}
+function acf_get_options_page($slug)
+{
+}
+function acf_get_options_pages()
+{
+}
+function acf_set_options_page_title($title = 'Options')
+{
+}
+function acf_set_options_page_menu($title = 'Options')
+{
+}
+function acf_set_options_page_capability($capability = 'edit_posts')
+{
+}
+function register_options_page($page = '')
+{
+}
+// class_exists check
+/*
+*  acf_pro_get_license
+*
+*  This function will return the license
+*
+*  @type	function
+*  @date	20/09/2016
+*  @since	5.4.0
+*
+*  @param	n/a
+*  @return	n/a
+*/
+function acf_pro_get_license()
+{
+}
+/*
+*  acf_pro_get_license_key
+*
+*  This function will return the license key
+*
+*  @type	function
+*  @date	20/09/2016
+*  @since	5.4.0
+*
+*  @param	n/a
+*  @return	n/a
+*/
+function acf_pro_get_license_key()
+{
+}
+/*
+*  acf_pro_update_license
+*
+*  This function will update the DB license
+*
+*  @type	function
+*  @date	20/09/2016
+*  @since	5.4.0
+*
+*  @param	$key (string)
+*  @return	n/a
+*/
+function acf_pro_update_license($key = '')
 {
 }
 /**

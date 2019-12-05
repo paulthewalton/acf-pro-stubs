@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-HEADER=$'/**\n * Generated stub declarations for Advanced Custom Fields.\n * https://www.advancedcustomfields.com/\n */'
+HEADER=$'/**\n * Generated stub declarations for Advanced Custom Fields Pro.\n * https://www.advancedcustomfields.com/\n */'
 
-FILE="acf-stubs.php"
+FILE="acf-pro-stubs.php"
 
 "$(dirname $0)/vendor/bin/generate-stubs" \
   --finder=finder.php \
