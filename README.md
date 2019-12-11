@@ -30,9 +30,9 @@ From Wordpress Stubs:
 
 This package is versioned to match the ACF version from which the stubs are generated. If any fixes to stubs are required, subsequent releases will be versioned as `ACF_VERSION.X`.
 
-## Generating stubs for a different WordPress version
+## Generating stubs for a different ACF version
 
-You should be running PHP 7.1 or later to follow these steps, so any function definitions that are polyfills for older versions of PHP are excluded from the stubs. Additionally, the Stubs Generator package at least requires PHP 7.1.
+Retrieving the source code for ACF Pro requires you to have a valid license key. You should be running PHP 7.1 or later to follow these steps, so any function definitions that are polyfills for older versions of PHP are excluded from the stubs. Additionally, the Stubs Generator package at least requires PHP 7.1.
 
 1. Clone this repository and `cd` into it.
 2. Set the environment variable `ACF_PRO_KEY` to your [ACF PRO key](https://www.advancedcustomfields.com/my-account/).
