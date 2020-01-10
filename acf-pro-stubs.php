@@ -16209,8 +16209,10 @@ function acf_write_json_field_group($field_group)
 function acf_delete_json_field_group($key)
 {
 }
-function determine_locale()
-{
+if (!function_exists('determine_locale')) {
+    function determine_locale()
+    {
+    }
 }
 /*
  * acf_get_locale
