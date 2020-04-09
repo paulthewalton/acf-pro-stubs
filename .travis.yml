@@ -26,7 +26,7 @@ before_script:
 script:
   - ./generate.sh
   - php -l acf-pro-stubs.php
-  - php -r "require './vendor/giacocorsiglia/wordpress-stubs/wordpress-stubs.php'; require 'acf-pro-stubs.php';"
+  - php -r "require './vendor/php-stubs/wordpress-stubs/wordpress-stubs.php'; require 'acf-pro-stubs.php';"
   - git diff --exit-code
 
 notifications:
