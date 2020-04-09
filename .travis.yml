@@ -1,0 +1,33 @@
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+php:
+  - '7.1'
+  - '7.2'
+  - nightly
+
+matrix:
+  allow_failures:
+    - php: nightly
+
+before_install:
+  - phpenv config-rm xdebug.ini
+
+install:
+  - composer install
+
+before_script:
+  - mkdir -p .build/php-cs-fixer
+  - php -m
+
+script:
+  - ./generate.sh
+  - php -l acf-pro-stubs.php
+  - php -r "require './vendor/giacocorsiglia/wordpress-stubs/wordpress-stubs.php'; require 'acf-pro-stubs.php';"
+  - git diff --exit-code
+
+notifications:
+  email: false

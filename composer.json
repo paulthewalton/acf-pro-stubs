@@ -10,11 +10,13 @@
         "advanced custom fields",
         "pro"
     ],
+    "require": {
+        "giacocorsiglia/wordpress-stubs": "*"
+    },
     "require-dev": {
         "php": "^7.1",
         "ext-gettext": "*",
         "giacocorsiglia/stubs-generator": "^0.5.0",
-        "giacocorsiglia/wordpress-stubs": "*",
         "advanced-custom-fields/advanced-custom-fields-pro": "*"
     },
     "license": "GPL-2.0+",
