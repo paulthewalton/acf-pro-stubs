@@ -16147,99 +16147,6 @@ function acf_get_choice_from_term($term, $format = 'term_id')
 function acf_get_compatibility($name)
 {
 }
-/**
- * acf_render_field_wrap_label
- *
- * Renders the field's label.
- *
- * @date	19/9/17
- * @since	5.6.3
- * @deprecated 5.6.5
- *
- * @param	array $field The field array.
- * @return	void
- */
-function acf_render_field_wrap_label($field)
-{
-}
-/**
- * acf_render_field_wrap_description
- *
- * Renders the field's instructions.
- *
- * @date	19/9/17
- * @since	5.6.3
- * @deprecated 5.6.5
- *
- * @param	array $field The field array.
- * @return	void
- */
-function acf_render_field_wrap_description($field)
-{
-}
-/**
- * acf_get_fields_by_id
- *
- * Returns and array of fields for the given $parent_id.
- *
- * @date	27/02/2014
- * @since	5.0.0.
- * @deprecated	5.7.11
- *
- * @param	int $parent_id The parent ID.
- * @return	array
- */
-function acf_get_fields_by_id($parent_id = 0)
-{
-}
-/**
- * acf_update_option
- *
- * A wrapper for the WP update_option but provides logic for a 'no' autoload
- *
- * @date	4/01/2014
- * @since	5.0.0
- * @deprecated	5.7.11
- *
- * @param	string $option The option name.
- * @param	string $value The option value.
- * @param	string $autoload An optional autoload value.
- * @return	bool
- */
-function acf_update_option($option = '', $value = '', $autoload = \null)
-{
-}
-/**
- * acf_get_field_reference
- *
- * Finds the field key for a given field name and post_id.
- *
- * @date	26/1/18
- * @since	5.6.5
- * @deprecated	5.6.8
- *
- * @param	string	$field_name	The name of the field. eg 'sub_heading'
- * @param	mixed	$post_id	The post_id of which the value is saved against
- * @return	string	$reference	The field key
- */
-function acf_get_field_reference($field_name, $post_id)
-{
-}
-/**
- * acf_get_dir
- *
- * Returns the plugin url to a specified file.
- *
- * @date	28/09/13
- * @since	5.0.0
- * @deprecated	5.6.8
- *
- * @param	string $filename The specified file.
- * @return	string
- */
-function acf_get_dir($filename = '')
-{
-}
 // class_exists check
 /**
 *  acf_register_field_type
@@ -16444,9 +16351,6 @@ function acf_write_json_field_group($field_group)
 *  @return	boolean
 */
 function acf_delete_json_field_group($key)
-{
-}
-function determine_locale()
 {
 }
 /**
@@ -17759,16 +17663,3 @@ function acf_pro_get_license_key()
 function acf_pro_update_license($key = '')
 {
 }
-/**
-*  html-admin-tools
-*
-*  View to output admin tools for both archive and single
-*
-*  @date	20/10/17
-*  @since	5.6.3
-*
-*  @param	string $screen_id The screen ID used to display metaboxes
-*  @param	string $active The active Tool
-*  @return	void
-*/
-$class = \null;
