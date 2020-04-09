@@ -1,6 +1,7 @@
 {
     "name": "paulthewalton/acf-pro-stubs",
-    "version": "5.8.7",
+    "version": "5.8.9.1",
+    "type": "library",
     "description": "ACF Pro stubs! Based on giacocorsiglia/wordpress-stubs. Advanced Custom Fields function, class, and global variable declaration stubs for easier static analysis.",
     "keywords": [
         "wordpress",
