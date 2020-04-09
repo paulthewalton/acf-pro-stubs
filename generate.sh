@@ -4,8 +4,9 @@ HEADER=$'/**\n * Generated stub declarations for Advanced Custom Fields Pro.\n *
 
 FILE="acf-pro-stubs.php"
 
-Fix_phpdoc()
+fix_phpdoc()
 {
+    # - make
     # - Fix type and variable name order for @param
     # - Remove remaining parentheses for @param
     # - Fix type and variable name order for @return
@@ -28,14 +29,10 @@ Fix_phpdoc()
   --header="$HEADER" \
   --nullify-globals
 
-Fix_phpdoc
-
-# Shim the global $wpdb declaration, since it's actually set up inside a
-# function call.
-# echo $'\n/**\n * WordPress database abstraction object.\n * @var wpdb\n */\n$wpdb = null;' >> $FILE
+fix_phpdoc
 
 # Trim tailing whitespace.  Not using sed because it seemed to struggle with
 # some characters in the file.
 perl -i -lpe "s/[[:space:]]+$//g" $FILE
 
-rm "$FILE.bak"
+

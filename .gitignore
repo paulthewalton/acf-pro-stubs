@@ -3,3 +3,4 @@
 composer.lock
 .DS_Store
 .env
+acf-pro-stubs.php.bak
