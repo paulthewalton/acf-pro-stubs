@@ -17,6 +17,7 @@ before_install:
   - phpenv config-rm xdebug.ini
 
 install:
+  - composer validate --strict
   - composer install
 
 before_script:
