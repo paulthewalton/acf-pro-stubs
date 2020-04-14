@@ -6,7 +6,7 @@ FILE="acf-pro-stubs.php"
 
 fix_phpdoc()
 {
-    # - make
+    # - make docblocks start with "/**"
     # - Fix type and variable name order for @param
     # - Remove remaining parentheses for @param
     # - Fix type and variable name order for @return
