@@ -17,7 +17,7 @@ matrix:
 
 before_install:
   - |
-    if [ "$(phpenv version-name)" != 7.4 ]; then
+    if [ "$(phpenv version-name)" != 8.0 ]; then
       phpenv config-rm xdebug.ini
     fi
 
