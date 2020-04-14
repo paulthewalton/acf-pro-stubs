@@ -17,8 +17,7 @@ matrix:
 
 before_install:
   - |
-    if [ "$(phpenv version-name)" != 8.0 ]; then
-      echo -n "PHP version="; phpenv version-name
+    if [ "$(phpenv version-name)" != nightly ]; then
       phpenv config-rm xdebug.ini
     fi
 
