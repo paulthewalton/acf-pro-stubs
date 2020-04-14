@@ -16,7 +16,10 @@ matrix:
     - php: nightly
 
 before_install:
-  - phpenv config-rm xdebug.ini
+  - |
+    if [ "$(phpenv version-name)" != 7.4 ]; then
+      phpenv config-rm xdebug.ini
+    fi
 
 install:
   - composer validate --strict
