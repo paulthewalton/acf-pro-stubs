@@ -7,7 +7,7 @@
 class ACF
 {
     /** @var string The plugin version number. */
-    var $version = '5.8.9';
+    var $version = '5.8.12';
     /** @var array The plugin settings array. */
     var $settings = array();
     /** @var array The plugin data array. */
@@ -3676,15 +3676,13 @@ class acf_field_image extends \acf_field
     {
     }
     /**
-     *  render_field()
+     * Renders the field HTML.
      *
-     *  Create the HTML interface for your field
+     * @date	23/01/13
+     * @since	3.6.0
      *
-     *  @param	$field - an array holding all the field's data
-     *
-     *  @type	action
-     *  @since	3.6
-     *  @date	23/01/13
+     * @param	array $field The field settings.
+     * @return	void
      */
     function render_field($field)
     {
@@ -12743,6 +12741,24 @@ function acf_did($name)
 {
 }
 /**
+ * Returns the length of a string that has been submitted via $_POST.
+ *
+ * Uses the following process:
+ * 1. Unslash the string because posted values will be slashed.
+ * 2. Decode special characters because wp_kses() will normalize entities.
+ * 3. Treat line-breaks as a single character instead of two.
+ * 4. Use mb_strlen() to accomodate special characters.
+ *
+ * @date	04/06/2020
+ * @since	5.9.0
+ *
+ * @param	string $str The string to review.
+ * @return	int
+ */
+function acf_strlen($str)
+{
+}
+/**
  * acf_add_filter_variations
  *
  * Registers variations for the given filter.
@@ -14275,6 +14291,18 @@ function acf_decode_taxonomy_term($value)
  * @return	array
  */
 function acf_array($val = array())
+{
+}
+/**
+ * Returns a non-array value.
+ *
+ * @date	11/05/2020
+ * @since	5.8.10
+ *
+ * @param	mixed $val The value to review.
+ * @return	mixed
+ */
+function acf_unarray($val)
 {
 }
 /**
