@@ -36,8 +36,12 @@ fix_phpdoc
 perl -i -lpe "s/[[:space:]]+$//g" $FILE
 
 # Exclude specific functions.
-# ? Does anyone have a better way of doing this?
-join_by() { local d=$1; shift; echo -n "$1"; shift; printf "%s" "${@/#/$d}"; }
+join_by()
+{
+    local d="$1"
+    shift
+    ( IFS="$d"; echo "$*" )
+}
 EXCLUDE_FUNC_ONLY=$(join_by "|" determine_locale)
 perl -0777 -i -pe "s/\s*function\s+($EXCLUDE_FUNC_ONLY)\s*\(.*?\)[^{]*\{[^}]*\}//msg" $FILE
 # EXCLUDE_FUNC_AND_DOC=$(join_by "|" determine_locale)
