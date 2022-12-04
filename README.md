@@ -12,7 +12,7 @@
 
 **Just like [paulthewalton/acf-stubs](https://github.com/paulthewalton/acf-stubs), but for ACF Pro!**
 
-[![Build Status](https://travis-ci.org/paulthewalton/acf-pro-stubs.svg?branch=master)](https://travis-ci.org/paulthewalton/acf-pro-stubs)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 This package provides stub declarations for ~~Wordpress~~ [Advanced Custom Fields (ACF)](https://wordpress.org/plugins/advanced-custom-fields/) core functions, classes, interfaces, and global variables. These stubs can help plugin and theme developers leverage static analysis tools.
 
