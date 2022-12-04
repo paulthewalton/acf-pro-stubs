@@ -1,3 +1,13 @@
+# ⛔️ This project has been abandoned. ⛔️
+
+> This project has been abandoned. I recommend using [php-stubs/acf-pro-stubs](https://packagist.org/packages/php-stubs/acf-pro-stubs) instead, as it is far more up-to-date and actively maintained.
+
+<br>
+
+---
+
+<br>
+
 # ~~WordPress~~ Advanced Custom Fields PRO Stubs
 
 **Just like [paulthewalton/acf-stubs](https://github.com/paulthewalton/acf-stubs), but for ACF Pro!**
